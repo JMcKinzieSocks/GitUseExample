@@ -12,6 +12,7 @@
 		6CE5F5AE2527A3E900EA6594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5F5AC2527A3E900EA6594 /* Main.storyboard */; };
 		6CE5F5B02527A3EA00EA6594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5F5AF2527A3EA00EA6594 /* Assets.xcassets */; };
 		6CE5F5B32527A3EA00EA6594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5F5B12527A3EA00EA6594 /* LaunchScreen.storyboard */; };
+		6CE5F5BF2527AC5B00EA6594 /* .gitignore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5F5BE2527AC5B00EA6594 /* .gitignore.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6CE5F5AF2527A3EA00EA6594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CE5F5B22527A3EA00EA6594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CE5F5B42527A3EA00EA6594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE5F5BE2527AC5B00EA6594 /* .gitignore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .gitignore.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6CE5F59C2527A3E900EA6594 = {
 			isa = PBXGroup;
 			children = (
+				6CE5F5BD2527AC2A00EA6594 /* Git */,
 				6CE5F5A72527A3E900EA6594 /* GitUseExample */,
 				6CE5F5A62527A3E900EA6594 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				6CE5F5B42527A3EA00EA6594 /* Info.plist */,
 			);
 			path = GitUseExample;
+			sourceTree = "<group>";
+		};
+		6CE5F5BD2527AC2A00EA6594 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				6CE5F5BE2527AC5B00EA6594 /* .gitignore.xib */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CE5F5B32527A3EA00EA6594 /* LaunchScreen.storyboard in Resources */,
+				6CE5F5BF2527AC5B00EA6594 /* .gitignore.xib in Resources */,
 				6CE5F5B02527A3EA00EA6594 /* Assets.xcassets in Resources */,
 				6CE5F5AE2527A3E900EA6594 /* Main.storyboard in Resources */,
 			);
